@@ -32,7 +32,7 @@ The script will perform the following:
 1. Reads all test/train data into R; combine all subject/activity label/data into a single data set.
 2. Labels the corresponding columne names with descriptive variable names.
 3. Extracts only the measurements on the mean and standard deviation for each measurement.
-4. Uses descriptive activity names to name the activities in the data set
-5. Generates a tidy data set in R and create a tidy data file ("summary.txt") in your working directory. The tidy data set contains the mean value of each variable for each subject and each activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+4. Uses descriptive activity names (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) to replace the numeric activity labels in the data set.
+5. Generates a tidy data set in R (summary) and create a tidy data file ("summary.txt") in your working directory. The tidy data set provides the mean value of each variable for each subject and each activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
 
