@@ -37,6 +37,7 @@ The script will perform the following:
 
 
 To read the .txt file back into R. One can use the following code:
-> my_data <- read.table("summary.txt", header = TRUE); View(my_data)
+<br />
+my_data <- read.table("summary.txt", header = TRUE); View(my_data)
 
 
