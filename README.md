@@ -36,3 +36,7 @@ The script will perform the following:
 5. Generates a tidy data set in R (summary) and create a tidy data file ("summary.txt") in your working directory. The tidy data set provides the mean value of each variable for each subject and each activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
 
+To read the .txt file back into R. One can use the following code:
+> my_data <- read.table("summary.txt", header = TRUE); View(my_data)
+
+
